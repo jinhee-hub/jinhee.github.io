@@ -1,0 +1,70 @@
+@import "../../_globalColor";
+
+.software-skills-main-div {
+  .skills-row {
+    display: flex;               
+    justify-content: space-evenly; 
+    align-items: flex-start;     
+    gap: 40px;                  
+    flex-wrap: nowrap;          
+
+    .skill-category {
+      flex: 1;                  
+      text-align: left;         
+
+      h3 {
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-align: left;       
+      }
+
+      .dev-icons {
+        padding-left: 0;
+        list-style: none;
+        font-size: 3rem;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: flex-start; 
+
+        .software-skill-inline {
+          display: inline-block;
+          text-align: center;
+
+          img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+
+            &:hover {
+              transform: scale(1.2);
+            }
+          }
+
+          i {
+            color: $subTitle;
+            transition: color 0.3s ease;
+
+            &:hover {
+              color: $skillsColor;
+            }
+          }
+
+          p {
+            color: $subTitle;
+            font-size: 10px;
+            margin-top: 5px;
+          }
+
+          i:hover ~ p {
+            color: $skillsColor;
+          }
+        }
+      }
+    }
+  }
+}
