@@ -210,17 +210,17 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/skintroublesimulation.png"),
+      projectName: "Skin Trouble Simulation",
+      projectDesc: "Skin trouble progression simulation using generative models.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Project Page",
+          url: "https://jinhee-hub.github.io/SkinTroubleSimulation/"
         }
         //  you can add extra buttons here.
       ]
@@ -231,7 +231,7 @@ const bigProjects = {
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visit Project Page",
           url: "http://nextu.se/"
         }
       ]
@@ -346,7 +346,6 @@ const talkSection = {
 
 const publicationSection = {
   title: "Publications",
-  subTitle: "My contributions to research and development",
   display: true, 
   publications: [
     {
