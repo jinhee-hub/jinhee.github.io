@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.624bab54.css",
-    "main.js": "/static/js/main.99191629.js",
+    "main.js": "/static/js/main.45021929.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.15f8ae3d.chunk.js": "/static/js/487.15f8ae3d.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.ebb10a29.chunk.js": "/static/js/990.ebb10a29.chunk.js",
+    "static/media/skintroublesimulation.png": "/static/media/skintroublesimulation.37ba99fd7ea4d2d59493.png",
     "static/media/kariLogo.jpg": "/static/media/kariLogo.9e59fbd9f8195f0c6d9c.jpg",
     "static/media/stanfordLogo.png": "/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
     "static/media/Ohio_State_University_Logo.png": "/static/media/Ohio_State_University_Logo.9a70f62e4be4aaa41bef.png",
@@ -30,12 +31,11 @@
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/resume.pdf": "/static/media/resume.f0f733dd3cd732b39262.pdf",
     "static/media/pwaLogo.webp": "/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
-    "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.624bab54.css.map": "/static/css/main.624bab54.css.map",
-    "main.99191629.js.map": "/static/js/main.99191629.js.map",
+    "main.45021929.js.map": "/static/js/main.45021929.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.15f8ae3d.chunk.js.map": "/static/js/487.15f8ae3d.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.624bab54.css",
-    "static/js/main.99191629.js"
+    "static/js/main.45021929.js"
   ]
 }
