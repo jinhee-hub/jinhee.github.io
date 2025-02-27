@@ -120,7 +120,6 @@ const educationInfo = {
   ]
 };
 
-
 // Work experience section
 
 const workExperiences = {
@@ -179,7 +178,6 @@ const workExperiences = {
   ]
 };
 
-
 // Some big projects you have worked on
 
 const bigProjects = {
@@ -213,6 +211,7 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
+
 const publicationSection = {
   title: "Publications",
   display: true, 
@@ -236,6 +235,23 @@ const publicationSection = {
       link: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002267493"
     }
   ]
+};
+
+
+// Resume Section
+const resumeSection = {
+  title: "Resume",
+  subtitle: "Feel free to download my resume",
+
+  // Please Provide with Your Podcast embeded Link
+  display: true // Set false to hide this section, defaults to true
+};
+
+const contactInfo = {
+  title: emoji("Contact Me ☎️"),
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  email_address: "jinny6876@gmail.com"
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
