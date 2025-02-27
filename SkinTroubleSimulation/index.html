@@ -113,10 +113,10 @@
 
 <section class="section">
   <div class="container is-max-desktop">    
-    <!-- Overview. -->
+    <!-- About This Work. -->
     <div class="columns">
       <div class="column is-full">
-        <h2 class="title is-3 has-text-centered">Overview</h2>
+        <h2 class="title is-3 has-text-centered">About This Work</h2>
         <p>
           This project aims to create a pipeline for simulating the progression of skin troubles by leveraging existing generative models.
           There has been a limited number of skin trouble images available to represent continuously evolving skin conditions while maintaining consistent facial features.
@@ -125,12 +125,13 @@
           To address this, we further trained a GAN using our dataset to simulate severity transitions.
           By leveraging this approach, our model successfully generates photorealistic images that depict skin trouble progression with precise control over severity levels.         
         </p>
-        <img src="./static/images/overview.png" alt="Overview Image" style="max-width:100%; height:auto; display:block; margin:0 auto;">
+        <img src="./static/images/results.png" alt="Result Image" style="max-width:100%; height:auto; display:block; margin:0 auto;">
       </div>
     </div>
-    <!--/ Overview. -->
+    <!--/ About This Work. -->
   </div>
 </section>
+
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -173,69 +174,25 @@
     </div>
     <!--/ Matting. -->
 
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
-
-        <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
-        <div class="content has-text-justified">
-          <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
-          </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
+    <section class="section">
+      <div class="container is-max-desktop">    
+        <!-- Overview. -->
+        <div class="columns">
+          <div class="column is-full">
+            <h2 class="title is-3 has-text-centered">Pipeline Overview</h2>
+            <p>
+              Our pipeline consists of two main stages: (1) dataset generation and (2) GAN-based severity transition modeling.
+              First, we fine-tune the Stable Diffusion XL model to create a diverse, multi-paired skin trouble dataset while maintaining consistent facial features.
+              The training dataset includes 55k facial images with severity scores assigned using a pre-trained trouble score estimation model. 
+              We generate text prompts by combining BLIP captions with severity scores, enabling the diffusion model to produce a structured dataset across 10 severity levels.
+              Using the multi-paired skin trouble dataset generated from the diffusion model, we then train a GAN to simulate severity transitions with precise control over progression levels. The overall process is illustrated in the figure below.              
+            </p>
+            <img src="./static/images/overview.png" alt="Overview Image" style="max-width:100%; height:auto; display:block; margin:0 auto;">
           </div>
         </div>
-        <br/>
-        <!--/ Interpolating. -->
-
-        <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <!--/ Re-rendering. -->
-
+        <!--/ Overview. -->
       </div>
-    </div>
-    <!--/ Animation. -->
+    </section>
 
 
     <!-- Concurrent Work. -->
@@ -302,11 +259,8 @@
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
           <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
+            Website taken from <a
+              href="https://github.com/nerfies/nerfies.github.io">here</a>.
           </p>
         </div>
       </div>
