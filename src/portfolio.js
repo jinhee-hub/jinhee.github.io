@@ -211,7 +211,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some of the projects I've worked on.",
   projects: [
     {
       image: require("./assets/images/skintroublesimulation.png"),
