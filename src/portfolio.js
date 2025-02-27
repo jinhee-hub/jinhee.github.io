@@ -26,7 +26,7 @@ const greeting = {
     "An AI researcher and developer specializing in computer vision, with experience in segmentation and image generation. Passionate about applying deep learning to medical imaging and media content creation. Currently seeking Ph.D. opportunities or industry roles to further explore and contribute to these fields."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ggiUvPI1twSKULdUqw_E5rDZi0q2Q6_T/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/uc?export=download&id=1ggiUvPI1twSKULdUqw_E5rDZi0q2Q6_T", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
