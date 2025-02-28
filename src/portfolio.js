@@ -226,13 +226,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/product.jpg"),
+      projectName: "Cosmetic Recommendation",
+      projectDesc: "Deep learning-based skin care product recommendation A focus on cosmetic ingredient analysis and facial skin conditions",
       footerLink: [
         {
           name: "Visit Project Page",
-          url: "http://nextu.se/"
+          url: "https://jinhee-hub.github.io/CosmeticRecommendation/"
         }
       ]
     },
