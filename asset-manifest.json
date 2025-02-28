@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.6868029b.css",
-    "main.js": "/static/js/main.7f56d16d.js",
+    "main.js": "/static/js/main.8ab0480d.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.15f8ae3d.chunk.js": "/static/js/487.15f8ae3d.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.ebb10a29.chunk.js": "/static/js/990.ebb10a29.chunk.js",
-    "static/media/skintroublesimulation.png": "/static/media/skintroublesimulation.37ba99fd7ea4d2d59493.png",
+    "static/media/skintroublesimulation.png": "/static/media/skintroublesimulation.ea6d0a796c3336d30122.png",
     "static/media/kariLogo.jpg": "/static/media/kariLogo.9e59fbd9f8195f0c6d9c.jpg",
     "static/media/stanfordLogo.png": "/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
     "static/media/Ohio_State_University_Logo.png": "/static/media/Ohio_State_University_Logo.9a70f62e4be4aaa41bef.png",
@@ -35,7 +35,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.6868029b.css.map": "/static/css/main.6868029b.css.map",
-    "main.7f56d16d.js.map": "/static/js/main.7f56d16d.js.map",
+    "main.8ab0480d.js.map": "/static/js/main.8ab0480d.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.15f8ae3d.chunk.js.map": "/static/js/487.15f8ae3d.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.6868029b.css",
-    "static/js/main.7f56d16d.js"
+    "static/js/main.8ab0480d.js"
   ]
 }
