@@ -23,9 +23,10 @@ const greeting = {
   username: "Jinhee Lee",
   title: "Jinhee Lee",
   subTitle: emoji(
-  "An AI researcher and developer specializing in computer vision, with experience in segmentation and image generation. Passionate about applying deep learning to medical imaging and media content creation.
-\n\n💡Currently seeking Ph.D. opportunities or industry roles to further explore and contribute to these fields."
-),
+  "An AI researcher and developer specializing in computer vision, with experience in segmentation and image generation.\n" +
+  "Passionate about applying deep learning to medical imaging and media content creation.\n\n" +
+  "💡 Currently seeking Ph.D. opportunities or industry roles to further explore and contribute to these fields."
+), 
   resumeLink:
     "https://drive.google.com/uc?export=download&id=1ggiUvPI1twSKULdUqw_E5rDZi0q2Q6_T", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
