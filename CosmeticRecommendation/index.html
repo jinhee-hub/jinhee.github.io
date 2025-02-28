@@ -49,25 +49,27 @@
           <h1 class="title is-1 publication-title">Deep learning-based skin care product recommendation A focus on cosmetic ingredient analysis and facial skin conditions</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              Jinhee Lee</a><sup>1</sup>,</span>           
+              Jinhee Lee</a>,
+            </span>           
             <span class="author-block">
-              Huisu Yoon</a><sup>1</sup>,</span>
-            <span class="author-block">
-             Semin Kim</a><sup>1</sup>,
+              Huisu Yoon</a>,
             </span>
             <span class="author-block">
-              Chanhyeok Lee</a><sup>1</sup>,
+             Semin Kim</a>,
             </span>
             <span class="author-block">
-              Jongha Lee</a><sup>1</sup>,
+              Chanhyeok Lee</a>,
             </span>
             <span class="author-block">
-              Sangwook Yoo</a><sup>1</sup>,
+              Jongha Lee</a>,
+            </span>
+            <span class="author-block">
+              Sangwook Yoo</a>
             </span>                        
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>lululab Inc.</span>
+            <span class="author-block">lululab Inc.</span>
           </div>
 
           <div class="column has-text-centered">
@@ -89,17 +91,6 @@
   </div>
 </section>
 
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <img id="teaser" src="./static/images/teaser.png" alt="Teaser Image" style="width:100%; height:auto;">
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Skin trouble progression.
-      </h2>
-    </div>
-  </div>
-</section>
-
 
 <section class="section">
   <div class="container is-max-desktop">    
@@ -108,14 +99,11 @@
       <div class="column is-full">
         <h2 class="title is-3 has-text-centered">About This Work</h2>
         <p>
-          This project aims to create a pipeline for simulating the progression of skin troubles by leveraging existing generative models.
-          There has been a limited number of skin trouble images available to represent continuously evolving skin conditions while maintaining consistent facial features.
-          To address this limitation, we generated multi-paired skin trouble images by fine-tuning the Stable Diffusion XL model, creating a comprehensive and diverse dataset.
-          Since diffusion models require long sampling times, it is challenging to observe real-time skin trouble progression.
-          To address this, we further trained a GAN using our dataset to simulate severity transitions.
-          By leveraging this approach, our model successfully generates photorealistic images that depict skin trouble progression with precise control over severity levels.         
+          This work proposes a deep learning-based skincare product recommendation system that analyzes both facial skin conditions and cosmetic ingredients. 
+          Unlike conventional methods that rely on customer reviews, our approach integrates AI-driven skin analysis and ingredient efficacy prediction to provide personalized recommendations.
+          By combining skin segmentation models and a transformer-based ingredient analyzer, this system ensures more reliable and science-backed skincare suggestions.
         </p>
-        <img src="./static/images/results.png" alt="Result Image" style="max-width:100%; height:auto; display:block; margin-top: 20px; margin:0 auto;">
+        <img src="./static/images/overview.png" alt="Result Image" style="max-width:100%; height:auto; display:block; margin-top: 20px; margin:0 auto;">
       </div>
     </div>
     <!--/ About This Work. -->
