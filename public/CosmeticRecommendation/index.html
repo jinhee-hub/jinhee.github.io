@@ -98,9 +98,9 @@
     <div class="columns">
       <div class="column is-full">
         <h2 class="title is-3 has-text-centered">About This Work</h2>
-        <p>
+        <p style="margin-bottom: 30px;">
           This work proposes a deep learning-based skincare product recommendation system that analyzes both facial skin conditions and cosmetic ingredients. 
-          Unlike conventional methods that rely on customer reviews, our approach integrates AI-driven skin analysis and ingredient efficacy prediction to provide personalized recommendations.
+          Unlike conventional methods that rely on customer reviews, our approach integrates AI-driven skin analysis and product efficacy prediction via ingredient analysis to provide personalized recommendations.
           By combining skin segmentation models and a transformer-based ingredient analyzer, this system ensures more reliable and science-backed skincare suggestions.
         </p>
         <img src="./static/images/overview.png" alt="Result Image" style="max-width:100%; height:auto; display:block; margin-top: 20px; margin:0 auto;">
@@ -121,9 +121,10 @@
         <div class="content">
           <h2 class="title is-3 has-text-centered">Qualitative Results</h2>
           <p>
-            We present skin trouble progression across different severity levels, demonstrating natural transitions in appearance.
+            Our skin analysis models perform segmentation on six skin concerns: pores, redness, acne, wrinkles, pigmentation, and dark circles. 
+            Additionally, the segmentation model quantifies the results into numerical scores for better evaluation.
           </p>
-          <img src="./static/images/zoom image.png" alt="Zoom Image" style="max-width:100%; height:auto; display:block; margin-top: 20px; margin:0 auto;">
+          <img src="./static/images/zoom image.png" alt="skin analysis" style="max-width:100%; height:auto; display:block; margin-top: 20px; margin:0 auto;">
         </div>
       </div>
       <!--/ Visual Effects. -->
@@ -178,15 +179,18 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{,
-  author    = {Jinhee Lee},
-  title     = {},
-  journal   = {},
-  year      = {2025},
+    <pre><code>@article{lee2024deep,
+  title={Deep learning-based skin care product recommendation: A focus on cosmetic ingredient analysis and facial skin conditions},
+  author={Lee, Jinhee and Yoon, Huisu and Kim, Semin and Lee, Chanhyeok and Lee, Jongha and Yoo, Sangwook},
+  journal={Journal of Cosmetic Dermatology},
+  volume={23},
+  number={6},
+  pages={2066--2077},
+  year={2024},
+  publisher={Wiley Online Library}
 }</code></pre>
   </div>
 </section>
-
 
 <footer class="footer">
   <div class="container">    
