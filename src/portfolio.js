@@ -226,6 +226,17 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Skin Chatbot",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Project Page",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/product.jpg"),
       projectName: "Cosmetic Recommendation",
       projectDesc: "Deep learning-based skin care product recommendation A focus on cosmetic ingredient analysis and facial skin conditions",
@@ -235,18 +246,7 @@ const bigProjects = {
           url: "https://jinhee-hub.github.io/CosmeticRecommendation/"
         }
       ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Project Page",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+    },    
   ],
   display: true // Set false to hide this section, defaults to true
 };
